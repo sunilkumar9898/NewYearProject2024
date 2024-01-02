@@ -77,6 +77,110 @@
         } */
 
 
+        h1{
+            font-size: 30px;
+            /* -webkit-text-stroke: 1px red; */
+            background-image: url(image/heart.webp);
+            background-position: center;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .circle-container {
+  display: flex;
+  justify-content: center;
+}
+.circle-container .outer-circle {
+  width: 400px;
+  /* height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  border-radius: 50%; 
+  position: relative;
+}
+.circle-container .outer-circle .inner-circle {
+  width: 200px;
+  height: 200px;
+  box-sizing: content-box;
+  border: 2px solid #f4362a;
+  transform: rotate(45deg);
+  border-radius: 50%;
+  border-style: dashed;
+  padding: 39px;
+}
+.circle-container .outer-circle .inner-circle .inner-circle-content {
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 0.3);
+}
+
+.circle-container .outer-circle:not(:first-child) {
+  margin-left: -49px;
+}
+.circle-container .outer-circle:nth-child(odd) .inner-circle {
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+.circle-container .outer-circle:nth-child(even) {
+  margin-top: 1px;
+}
+.circle-container .outer-circle:nth-child(even) .inner-circle {
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+}
+
+.bottom_heading {
+  position: absolute;
+  top: 50px;
+  color: #fff;
+  text-align: center;
+  width: 85%;
+}
+.bottom_heading.topheading {
+  bottom: 0px;
+  top: auto;
+}
+.multistep {
+  position: absolute;
+  top: -8px;
+  width: 100%;
+  text-align: center;
+}
+
+.circle{
+  /* margin-top:50px; */
+  width: 350px;
+  height: 350px;
+  margin:50px auto;
+  border: 2px dashed red;
+  border-radius: 50%;
+  padding: 39px;
+transform: rotate(45deg);
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
 
 
     </style>
@@ -97,6 +201,12 @@
    <!-- <img src="image/10.webp" alt=""> -->
    <h1>Rajasthan Police</h1>
 
+
+
+
+  <div class="circle">
+
+  </div>
 
 
 </body>
