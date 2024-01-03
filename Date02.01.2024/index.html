@@ -54,10 +54,50 @@
                 transform: scale(.75);opacity: .75;
             }
         }
+
+        li{
+            display: table-cell;
+            justify-content: space-between;
+            margin: auto;
+            position: relative;
+            padding: 15px 0px;
+            /* background-color: black; */
+            width: 100%;
+        }
+        a{
+            /* color: white; */
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: 0.15em;
+            display: inline-block;
+            padding: 15px 20px;
+            position: relative;
+            
+
+        }
+        a:hover::after{
+            transition: all .5s ease-out;
+            content: "";
+    border: 2px solid red;
+    background-origin: inherit;
+    width: 80%;
+    bottom: 0;
+    left: 0; /* Adjust the value to set the distance from the bottom */
+    position: absolute; 
+    /* Add this line to position the border absolutely */
+    color: red;
+        }
+        a:hover::after {
+    width: 80%; /* Set the target width on hover */
+}
     </style>
 </head>
 <body>
-<div>❤️</div>
+    <li><a href="#">Home</a>
+       <a href="#">About</a>       
+       <a href="#">Contact</a>       
+       <a href="#">Service</a></li>
+<!-- <div>❤️</div> -->
 <!-- <button class="animated-button">Hover me</button> -->
 <script src="index.js"></script>
 </body>
