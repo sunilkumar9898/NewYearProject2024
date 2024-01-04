@@ -86,22 +86,22 @@ Q: 5;
 
 // Examples
 
-// let a = 1000;
-// let b= 200;
-// let c =80;
-// let d = 40;
+let a = 1000;
+let b= 200;
+let c =80;
+let d = 40;
 
-// if(a>b && a>c && a>d){
-//     console.log("A is Grater");
-// }
-// else if(b>a && b>c && c>d){
-//     console.log("B Is Greater");
-// }
-// else if(c>a && c>b && c>d){
-//     console.log("C Is Greater");
-// }else if(d>a && d>b && d>c){
-//     console.log("D Is Greater");
-// }
+if(a>b && a>c && a>d){
+    console.log("A is Grater");
+}
+else if(b>a && b>c && c>d){
+    console.log("B Is Greater");
+}
+else if(c>a && c>b && c>d){
+    console.log("C Is Greater");
+}else if(d>a && d>b && d>c){
+    console.log("D Is Greater");
+}
 
 
 
@@ -110,14 +110,14 @@ Q: 5;
 
 let w = 5;
 let x = 60;
-let y = 70;
+let y = 700;
 let z = 100;
 
 if (w > x) {
   if (w > y) {
     if (w > z) {
       console.log(w);
-    }
+    }  
   }
 }
 if (x > w) {
@@ -134,13 +134,17 @@ if (y > w) {
     }
   }
 }
-else {if(z > w) {
+if(z > w) {
   if (z > x) {
     if (z > y) {
       console.log(z);
     }
   }
-}}
+}
+
+
+
+
 
 
 
