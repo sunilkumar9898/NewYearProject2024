@@ -159,15 +159,15 @@
 // }
 
 
-function printTable(num){
-    let i =1;
-    while (i<=10) {
-        let result = num*i;
-        console.log(`${num} * ${i} = ${result}`);
-        i++; 
-    }
-}
-printTable(21);
+// function printTable(num){
+//     let i =1;
+//     while (i<=10) {
+//         let result = num*i;
+//         console.log(`${num} * ${i} = ${result}`);
+//         i++; 
+//     }
+// }
+// printTable(21);
 
 
 
