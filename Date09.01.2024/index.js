@@ -152,6 +152,68 @@
 // sum(11)
 
 
-let str = "hello from jaipur";
-console.log(str.length);
 
+// function sum(num){
+//     let count =0;
+//     let sum = 0;
+//     for(num; count<5;num++){
+//         if(num%2==0){
+//             sum = sum +num;
+//             count++
+//         }
+//     }
+//     console.log(sum);
+// }
+// sum(10)
+
+
+
+// Q : 9 write a program to print the sum of first 5 odd numbers ;
+
+// function odd_sum(num){
+//     let count = 0;
+//     let sum_of_odd = 0;
+//     for(num;count<5;num++){
+//         if(num%2==1){
+//             sum_of_odd = sum_of_odd+num;
+//             count++;
+//         }
+//     }
+//     console.log(sum_of_odd);
+// }
+
+// odd_sum(10);
+
+
+// let count = 0;
+// let sum = 0;
+// for(let i=0;i<=20;i++){
+//     if(i%2==1){
+//         sum = sum+i;
+//         count++;
+//         if(count==5){
+//             break
+//         }
+//     }
+// }
+// console.log(sum);
+
+// let num =21;
+// let sum = 0;
+// for(let i =0; i<5;i++){
+//     sum = sum+num;
+//     num = num+2;
+//     console.log(num);
+// }
+// // console.log(sum);
+
+
+// Q : 10 write a progarm to print the sum of given number when the number is 30 and stop loop when the number value is 20.
+
+let number = 30;
+for(let i= 1; i<=number;i++){
+    console.log(i);
+    if(i==20){
+        break;
+    }
+}
