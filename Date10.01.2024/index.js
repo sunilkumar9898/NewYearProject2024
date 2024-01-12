@@ -121,3 +121,20 @@
 //   }
 
 
+// let num =6;
+// for(let i =1; i<=num; i++){
+//     let  bag = " ";
+//       for(let j =1; j<=num; j++){
+//           if(i==3 || i==1 || i==6){
+//               bag = bag+"*"
+//           }
+//           else if(j==1 ){
+//               bag = bag + "*";
+//           }else{
+//               bag = bag+ " ";
+//           }
+//       }
+//       console.log(bag);
+//   }
+
+
