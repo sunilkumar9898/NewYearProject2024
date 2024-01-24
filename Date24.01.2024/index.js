@@ -18,20 +18,20 @@
 // }
 // console.log(result);
 
-let user={
-    name:"sunil",
-    age:25,
-    gender:"male",
-    mobile:9598125005,
-    city:"jaipur",
-    marks:[25,36,40,78,100],
-    personalInfo:{
-     fathername:"xyz",
-     fmobile:95986936212,
-     fdata:"jaipur",
-     value:[1,2,3,4]
-    } 
-}
+// let user={
+//     name:"sunil",
+//     age:25,
+//     gender:"male",
+//     mobile:9598125005,
+//     city:"jaipur",
+//     marks:[25,36,40,78,100],
+//     personalInfo:{
+//      fathername:"xyz",
+//      fmobile:95986936212,
+//      fdata:"jaipur",
+//      value:[1,2,3,4]
+//     } 
+// }
 
 // for(let i=0;i<user.length;i++){
 
@@ -45,6 +45,18 @@ let user={
 //     let key = keys[i];
 //     console.log(key, user[key]);
 // } 
-for(let value in user){
-    console.log(user[value])
+// for(let value in user){
+//     console.log(user[value])
+// }
+
+let obj = {
+name:"Sunil Kumar Kumawat",
+age:26,
+Mobile_Number:8209277800,
+City:"Jaipur",
+State :"Rajasthan",
+}
+
+for(let key in obj){
+    console.log(key,obj[key]);
 }
