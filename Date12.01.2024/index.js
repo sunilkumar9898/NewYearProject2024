@@ -43,14 +43,6 @@
 // }
 // console.log(bag);
 
-// let max = [1,2,3,4,5,80,200,40,12];
-// let a ;
-// for(let i=0; i<max.length;i++){
-//     if( max[i]>= max[i+1]){
-// a = max[i];
-//     }
-// }
-// console.log(a);
 
 
 var movies = ["bahuballi", "Spider Man", "Iron Man", "Super Man","hulk","thor"];
