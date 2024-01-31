@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Create By JAvascript DOM</title>
+    <style>
+        table{
+            width: 50%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<table id="table_data" border="1">
+
+</table>
+
+<script>
+    let thead = document.createElement("thead");
+    let tr = document.createElement("tr");
+    let th1 = document.createElement("th")
+    th1.innerText = "SR. NO"
+    let th2 = document.createElement("th")
+    th2.innerText = "Name"
+    let th3 = document.createElement("th")
+    th3.innerText = "Mobile"
+    let th4 = document.createElement("th")
+    th4.innerText = "City"
+    let th5 = document.createElement("th")
+    th5.innerText = "Status"
+
+
+
+        let tr1 = document.createElement("tr");
+    let td1 = document.createElement("th")
+    td1.innerText = "1"
+    let td2 = document.createElement("th")
+    td2.innerText = "Manjeet"
+    let td3 = document.createElement("th")
+    td3.innerText = "8956236589"
+    let td4 = document.createElement("th")
+    td4.innerText = "Jaipur"
+    let td5 = document.createElement("th")
+    td5.innerText = "Incomplete"
+        if(td5.innerText="incompleted"){
+        td5.style.color="white"
+        td5.style.background="red"
+    }
+
+
+
+        let tr2 = document.createElement("tr");
+    let td6 = document.createElement("th")
+    td6.innerText = "2"
+    let td7 = document.createElement("th")
+    td7.innerText = "Sunil"
+    let td8 = document.createElement("th")
+    td8.innerText = "7895654455"
+    let td9 = document.createElement("th")
+    td9.innerText = "Sikar"
+    let td10 = document.createElement("th")
+    td10.innerText = "completed"
+            if(td10.innerText="incompleted"){
+        td10.style.color="white"
+        td10.style.background="green"
+    }
+
+    tr.append(th1,th2,th3,th4,th5);
+    tr1.append(td1,td2,td3,td4,td5)
+    tr2.append(td6,td7,td8,td9,td10)
+    thead.append(tr,tr1,tr2);
+    let table_data = document.getElementById("table_data")
+    table_data.append(thead)
+</script>
+</body>
+</html>
